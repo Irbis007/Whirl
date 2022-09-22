@@ -1,0 +1,33 @@
+@import url('modules/header.css');
+@import url('modules/vars.css');
+@import url('modules/reboot.css');
+@import url('modules/buttons.css');
+@import url('modules/fonts.css');
+@import url('modules/intro.css');
+@import url('modules/titles.css');
+@import url('modules/companies.css');
+@import url('modules/options.css');
+@import url('modules/second-section.css');
+@import url('modules/about-whirl.css');
+@import url('modules/third-section.css');
+@import url('modules/your-task.css');
+@import url('modules/fourth-section.css');
+@import url('modules/get-started.css');
+@import url('modules/footer.css');
+
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1130px) {
+    .container{
+        padding: 0 5px;
+    }
+    
+}

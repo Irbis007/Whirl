@@ -1,0 +1,26 @@
+.companies{
+    padding: 40px 0 80px 0;
+}    
+
+.companies-text{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: .2px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.companies .companies-img{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: center;
+    gap: 60px;
+}
+
+@media (max-width: 576px) {
+    .companies-text{
+        font-size: 20px;
+    }
+    
+}

@@ -1,0 +1,33 @@
+.get-started{
+    padding: 80px 0;
+}
+
+.get-started .container{
+    background-color: var(--bg-color-1000);
+    padding: 56px 64px;
+}
+
+.get-started .get-started-body{
+    max-width: 500px;
+}
+
+.get-started .get-started-body .checked{
+    display: flex;
+    gap: 32px;
+    margin-top: 12px;
+    color: var(--text-color-600);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+@media (max-width:767px) {
+    .get-started .get-started-body .checked{
+        justify-content: center;
+    }
+}
+@media (max-width: 576px) {
+    .get-started .container{
+        padding: 56px 5px;
+    }
+    
+}

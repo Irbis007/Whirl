@@ -1,0 +1,88 @@
+.second-section{
+    background-color: var(--bg-color-800);
+    padding: 80px 0;
+}
+
+.second-section .second-section-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    margin-top: 35px;
+}
+
+.second-section .second-section-wrapper .second-section-body {
+    padding-top: 27px;
+}
+
+.second-section .second-section-wrapper .second-section-body .pagination:nth-child(1){
+    border-top: 1px solid var(--bg-color-900);
+}
+
+.second-section .second-section-wrapper .second-section-body .pagination{
+    width: 450px;
+    border-bottom: 1px solid var(--bg-color-900);
+    padding: 15px;
+}
+
+.second-section .second-section-wrapper .second-section-body .pagination .pagination-top{
+    display: flex;
+    align-items: center;
+    color: var(--text-color-600);
+    gap: 15px;
+    position: relative;
+    transition: all 3s;
+}
+.second-section .second-section-wrapper .second-section-body .pagination .pagination-top:hover{
+    cursor: pointer;
+}
+
+.second-section .second-section-wrapper .second-section-body .pagination .pagination-top .pagination-arrow{
+    position: absolute;
+    right: 0;
+    transition: all .3s;
+}
+.second-section .second-section-wrapper .second-section-body .pagination .pagination-top .pagination-arrow-active{
+    transform: rotateZ(180deg);
+}
+
+.second-section .second-section-wrapper .second-section-body .pagination .pagination-body{
+    max-width: 374px;
+    height: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: var(--text-color-500);
+    padding-left: 60px;
+    visibility: hidden;
+}
+.second-section .second-section-wrapper .second-section-body .pagination .pagination-body-active{
+    visibility:visible;
+    height: 100%;
+    transition: all 3s;
+}
+
+@media (max-width: 991px) {
+    .second-section .second-section-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 767px) {
+    .second-section .second-section-wrapper .second-section-img{
+        min-width: 300px;
+    }
+    .second-section .second-section-wrapper .second-section-img img{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 576px) {
+    .second-section .second-section-wrapper{
+        padding: 0;
+    }
+    .second-section .second-section-wrapper .second-section-body .pagination{
+        width: 100%;
+    }
+    .second-section .second-section-wrapper .second-section-body .pagination .pagination-body{
+       padding: 0;
+    }
+}

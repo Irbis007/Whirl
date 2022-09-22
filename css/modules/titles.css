@@ -1,0 +1,133 @@
+.title{
+    font-size: 42px;
+    font-family: 'Fraunces', sans-serif;font-size: 42px;
+    line-height: 120%;
+    letter-spacing: 0.2px;
+    color: var(--text-color-500);
+}
+
+.intro-title{
+    font-size: 58px;
+    line-height: 110%;
+}
+.block-title{
+    font-size: 25px;
+    margin-top: 8px;
+}
+.second-section-title{
+    font-size: 42px;
+    line-height: 120%;
+    max-width: 620px;
+}
+.benefit-title{
+    font-size: 25px;
+    font-family: 'Fraunces', sans-serif;
+}
+.third-title{
+    color: var(--text-color-100);
+}
+.task-title{
+    font-family: 'Fraunces';
+    font-size: 25px;
+    line-height: 31px;
+}
+.card-title{
+    font-size: 25px;
+    line-height: 125%;
+    margin-top: 8px;
+}
+
+
+.descr{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+.descr-20{
+    font-size: 20px;
+}
+.intro-descr{
+    margin-top: 21px;
+    max-width: 380px;
+}
+.block-descr{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    margin-top: 11px;
+}
+.benefit-descr{
+    font-size: 15px;
+}
+.third-descr{
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+.your-task-descr{
+    max-width: 650px;
+    margin-top: 18px;
+}
+.task-descr{
+    font-size: 16px;
+}
+.card-descr{
+    font-size: 14px;
+    line-height: 140%;
+    margin-top: 11px;
+}
+.get-started-descr{
+    margin-top: 18px;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+    .intro-title{
+        font-size: 43px;
+        max-width: 420px;
+    }
+    .descr-20{
+        font-size: 17px;
+    }
+    .second-section-title{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .third-title{
+        font-size: 35px;
+    }
+}
+@media (max-width: 767px) {
+    .second-section-title{
+        font-size: 35px;
+    }
+    .title{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .descr{
+        text-align: center;
+    }
+    .footer-descr{
+        text-align: start;
+    }
+    
+}
+@media (max-width: 576px) {
+    .intro-title{
+        text-align: center;
+        font-size: 38px;
+    }
+    .second-section-title{
+        font-size: 26px;
+    }
+    .about-whirl-title{
+        font-size: 32px;
+        width: auto;
+    }
+    .your-task-title{
+        font-size: 36px;
+    }
+}

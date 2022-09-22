@@ -1,0 +1,57 @@
+.about-whirl{
+    padding: 120px 0;
+}
+
+.about-whirl .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-whirl .about-whirl-title{
+    width: 260px;
+}
+
+.about-whirl .about-whirl-wrapper{
+    max-width: 732px;
+}
+
+.about-whirl .about-whirl-wrapper .benefits{
+    display: flex;
+    gap: 32px;
+}
+
+.about-whirl .benefits .benefit{
+    width: 223px;
+
+}
+
+@media (max-width:1130px) {
+    .about-whirl .container{
+        display: block;
+    }
+    .about-whirl .about-whirl-title{
+        width: auto;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    .about-whirl .about-whirl-wrapper{
+        width: 100%;
+    }
+    .about-whirl .about-whirl-wrapper {
+        margin: 0 auto;
+    }
+    .about-whirl .about-whirl-wrapper .benefits{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 223px);
+        justify-content: center;
+    }
+    
+}
+@media (max-width: 576px) {
+    .about-whirl .benefits .benefit img{
+        display: block;
+        margin: 0 auto;
+    }
+    
+}

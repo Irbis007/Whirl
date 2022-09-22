@@ -1,0 +1,87 @@
+.button{
+    width: 174px;
+    height: 43px;
+    background-color: var(--bg-color-100);
+    border: none;
+    color: var(--text-color-100);
+    transition: all .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+}
+.button:hover{
+    background-color: var(--bg-color-300);
+    cursor: pointer;
+}
+
+
+.button-white{
+    background-color: var(--bg-color-200);
+    color: var(--text-color-300);
+}
+.button-white:hover{
+    background-color: var(--bg-color-200);
+    border: 1px solid var(--bg-color-100);
+}
+
+.header-button{
+    width: 139px;
+    height: 36px;
+    font-size: 15px;
+}
+
+.transparent-button{
+    background-color: var(--bg-color-1100);
+    margin-top: 15px;
+}
+.transparent-button:hover{
+    border: 1px solid var(--bg-color-200);
+}
+
+.fourth-button{
+    color: var(--text-color-300);
+}
+.fourth-button:hover{
+    background-color: var(--bg-color-1100);
+    border: 1px solid var(--bg-color-100);
+}
+
+.get-started-button{
+    margin-top: 36px;
+}
+
+@media (max-width: 767px) {
+    .header-button{
+        width: 121px;
+        height: 32px;
+    }
+    .third-button{
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;;
+    }
+    .fourth-button{
+        display: block;
+        margin: 0 auto;
+    }
+    .get-started-button{
+        display: block;
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+    
+}
+@media (max-width: 576px) {
+    .header-button{
+        display: none;
+    }
+    .button{
+        width: 140px;
+        height: 32px;
+    }
+    .descr{
+        text-align: center;
+    }
+}

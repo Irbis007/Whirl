@@ -1,0 +1,22 @@
+:root{
+    --bg-color-100: #0070A0;
+    --bg-color-200: #fff;
+    --bg-color-300: #098bc2;
+    --bg-color-400: rgba(0, 112, 160, .90);
+    --bg-color-500: #FAEA73;
+    --bg-color-600: #CCEFF6;
+    --bg-color-700: #F7CEDC;
+    --bg-color-800: #F7F9FA;
+    --bg-color-900: #C2CDD8;
+    --bg-color-1000: #E6F7FF;
+    --bg-color-1100: rgba(0, 0, 0, 0);
+    --bg-color-1200: #000;
+
+    --text-color-100: #fff;
+    --text-color-200: #CCE5F3;
+    --text-color-300: #0070A0;
+    --text-color-400: #33383F;
+    --text-color-500: #1F1F1F;
+    --text-color-600: #626A72;
+    --text-color-700: #2C90C9;
+}
