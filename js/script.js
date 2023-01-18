@@ -4,11 +4,13 @@ document.addEventListener('DOMContentLoaded', () =>{
     const paginationTop = document.querySelectorAll('.pagination-top')
     const paginationBody = document.querySelectorAll('.pagination-body')
     const paginationArrow = document.querySelectorAll('.pagination-arrow')
+    const body = document.querySelector('body')
 
 
     hamburger.addEventListener('click', () =>{
-        menu.classList.toggle('menu-active')
-        hamburger.classList.toggle('hamburger-active')
+        menu.classList.toggle('menu-active');
+        hamburger.classList.toggle('hamburger-active');
+        body.classList.toggle('active')
     })
 
 

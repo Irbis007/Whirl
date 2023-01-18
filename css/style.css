@@ -28,6 +28,11 @@
 @media (max-width: 1130px) {
     .container{
         padding: 0 5px;
+    }   
+}
+
+@media (max-width: 767px) {
+    body.active{
+        overflow: hidden;
     }
-    
 }
