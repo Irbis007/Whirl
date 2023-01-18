@@ -52,12 +52,13 @@
     font-size: 16px;
     color: var(--text-color-500);
     padding-left: 60px;
-    visibility: hidden;
+    overflow: hidden;
+    transition: all .4s;
 }
 .second-section .second-section-wrapper .second-section-body .pagination .pagination-body-active{
-    visibility:visible;
-    height: 100%;
-    transition: all 3s;
+    height: 100px;
+    transition: all .4s;
+    overflow: hidden;
 }
 
 @media (max-width: 991px) {
@@ -73,7 +74,9 @@
     .second-section .second-section-wrapper .second-section-img img{
         width: 100%;
     }
-    
+    .second-section .second-section-wrapper .second-section-body .pagination{
+        margin: 0 auto;
+    }
 }
 @media (max-width: 576px) {
     .second-section .second-section-wrapper{
